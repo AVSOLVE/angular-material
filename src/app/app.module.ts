@@ -38,16 +38,20 @@ import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
+
+
 import { HeaderComponent } from './components/pages/header/header.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { ProductsComponent } from './components/products/products.component';
+import { FiltersComponent } from './components/pages/filters/filters.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ProductsComponent
+    ProductsComponent,
+    FiltersComponent
   ],
   imports: [
     AppRoutingModule,
